@@ -60,7 +60,7 @@ export const syncUserDeletion = inngest.createFunction(
 //Inngest function to create user's order in database
 export const createUserOrder = inngest.createFunction(
     {
-        id: 'create-user-order',
+        id:'create-user-order',
         batchEvents: {
             maxSize: 5,
             timeout: '5s'
