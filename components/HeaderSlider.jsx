@@ -6,27 +6,28 @@ const HeaderSlider = () => {
   const sliderData = [
     {
       id: 1,
-      title: "Experience Pure Sound - Your Perfect Headphones Awaits!",
-      offer: "Limited Time Offer 30% Off",
-      buttonText1: "Buy now",
-      buttonText2: "Find more",
-      imgSrc: assets.header_headphone_image,
+      title: "Gear Up for the Wild – Adventure Starts Here!",
+      offer: "Limited Stock – Up to 40% Off on Outdoor Essentials",
+      buttonText1: "Shop Now",
+      buttonText2: "Explore More",
+      imgSrc: "/images/shop1.jpg",
+
     },
     {
       id: 2,
-      title: "Next-Level Gaming Starts Here - Discover PlayStation 5 Today!",
-      offer: "Hurry up only few lefts!",
-      buttonText1: "Shop Now",
-      buttonText2: "Explore Deals",
-      imgSrc: assets.header_playstation_image,
+      title: "Unleash the Explorer in You – Gear Built for the Wild!",
+      offer: "Adventure Essentials at Up to 40% Off – Limited Stock!",
+      buttonText1: "Buy Now",
+      buttonText2: "Learn more",
+      imgSrc: "/images/about.jpeg",
     },
     {
       id: 3,
-      title: "Power Meets Elegance - Apple MacBook Pro is Here for you!",
-      offer: "Exclusive Deal 40% Off",
+      title: "Built for the Bold – Premium Gear for Every Expedition",
+      offer: "Adventure Sale – Flat 40% Off on Pro-Grade Essentials",
       buttonText1: "Order Now",
-      buttonText2: "Learn More",
-      imgSrc: assets.header_macbook_image,
+      buttonText2: "Explore ",
+      imgSrc: "/images/banner.jpg",
     },
   ];
 
@@ -52,13 +53,21 @@ const HeaderSlider = () => {
         }}
       >
         {sliderData.map((slide, index) => (
+          // <div
+          //   key={slide.id}
+          //   className="flex flex-col-reverse md:flex-row items-center justify-between bg-[#E6E9F2] py-8 md:px-14 px-5 mt-6 rounded-xl min-w-full"
+          // >
           <div
             key={slide.id}
-            className="flex flex-col-reverse md:flex-row items-center justify-between bg-[#E6E9F2] py-8 md:px-14 px-5 mt-6 rounded-xl min-w-full"
+            className="flex flex-col-reverse md:flex-row items-center justify-between bg-cover bg-center bg-no-repeat py-8 md:px-14 px-5 mt-6 rounded-xl min-w-full"
+            style={{
+              backgroundImage: `url(${slide.imgSrc})`,
+            }}
           >
+
             <div className="md:pl-8 mt-10 md:mt-0">
               <p className="md:text-base text-orange-600 pb-1">{slide.offer}</p>
-              <h1 className="max-w-lg md:text-[40px] md:leading-[48px] text-2xl font-semibold">
+              <h1 className="max-w-lg md:text-[40px] md:leading-[48px] text-2xl text-gray-300 font-semibold">
                 {slide.title}
               </h1>
               <div className="flex items-center mt-4 md:mt-6 ">
@@ -71,13 +80,6 @@ const HeaderSlider = () => {
                 </button>
               </div>
             </div>
-            <div className="flex items-center flex-1 justify-center">
-              <Image
-                className="md:w-72 w-48"
-                src={slide.imgSrc}
-                alt={`Slide ${index + 1}`}
-              />
-            </div>
           </div>
         ))}
       </div>
@@ -87,9 +89,8 @@ const HeaderSlider = () => {
           <div
             key={index}
             onClick={() => handleSlideChange(index)}
-            className={`h-2 w-2 rounded-full cursor-pointer ${
-              currentSlide === index ? "bg-orange-600" : "bg-gray-500/30"
-            }`}
+            className={`h-2 w-2 rounded-full cursor-pointer ${currentSlide === index ? "bg-orange-600" : "bg-gray-500/30"
+              }`}
           ></div>
         ))}
       </div>
