@@ -67,7 +67,7 @@ const HeaderSlider = () => {
 
             <div className="md:pl-8 mt-10 md:mt-0">
               <p className="md:text-base text-orange-600 pb-1">{slide.offer}</p>
-              <h1 className="max-w-lg md:text-[40px] md:leading-[48px] text-2xl text-gray-300 font-semibold">
+              <h1 className="max-w-lg md:text-[40px] md:leading-[48px] text-2xl text-gray-500 font-semibold">
                 {slide.title}
               </h1>
               <div className="flex items-center mt-4 md:mt-6 ">

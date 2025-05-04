@@ -80,8 +80,8 @@ const products = [
   {
     id: 3,
     image: "/images/shoes.jpg",
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Adventure-Ready Shelter",
+    description: "Durable, weather-resistant tents built for the wild. Stay safe and comfortable under any sky.",
   },
 ];
 
