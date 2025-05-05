@@ -297,10 +297,10 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
-          "price": 499.99,
-          "offerPrice": 399.99,
+          "name": "Sleeping bag",
+          "description": "Stay warm and comfortable on every adventure with our premium sleeping bags. Designed for optimal insulation and compact packing, they're perfect for camping, trekking, or cold-weather travel",
+          "price": 4990.99,
+          "offerPrice": 3990.99,
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/lrllaprpos2pnp5c9pyy.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/jqotgy2rvm36vfjv6lxl.png",
@@ -315,11 +315,11 @@ export const orderDummyData = [
         "_id": "67a20934b3db72db5cc77b2c"
       }
     ],
-    "amount": 406.99,
+    "amount": 4060.99,
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Trupti",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -339,10 +339,10 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f52e3f34a77b6dde914a",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Bose QuietComfort 45",
+          "name": "cooking stove",
           "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
-          "price": 429.99,
-          "offerPrice": 329.99,
+          "price": 4290.99,
+          "offerPrice": 3290.99,
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
           ],
@@ -358,7 +358,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Gearup",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -378,8 +378,8 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+          "name": "Waterproof Tent",
+          "description": "Brave any weather with our durable waterproof tents. Engineered for superior protection and quick setup, they keep you dry and secure on all your outdoor adventures",
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
@@ -400,7 +400,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Gearup",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -418,7 +418,7 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
+    "fullName": "Gearup",
     "phoneNumber": "0123456789",
     "pincode": 654321,
     "area": "Main Road , 123 Street, G Block",
